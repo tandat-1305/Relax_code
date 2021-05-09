@@ -1,0 +1,197 @@
+Owan01 Table
+     X1    X2     X3    X4
+0    93  85.0  100.0  96.0
+1   120  45.0   75.0  58.0
+2    65  80.0   65.0  95.0
+3   105  28.0   40.0  90.0
+4   115  75.0   73.0  65.0
+5    82  70.0   65.0  80.0
+6    99  65.0   50.0  85.0
+7    87  55.0   30.0  95.0
+8   100  50.0   45.0  82.0
+9    90  40.0   50.0   NaN
+10   78   NaN   45.0   NaN
+11   95   NaN   55.0   NaN
+12   93   NaN    NaN   NaN
+13   88   NaN    NaN   NaN
+14  110   NaN    NaN   NaN
+Kiểm định Kolmogorov: X1
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X2
+Dữ liệu không tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X3
+Dữ liệu không tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X4
+Dữ liệu không tuân theo luật phân phối chuẩn
+None
+Kiểm định Bartlett:
+ Statistic = 2.440153553631599
+ pvalue = 0.48620382137845997
+Các features đồng nhất về phương sai
+None
+Kiểm định ANOVA:
+Stat = nan
+ pvalue = nan
+Chưa có bằng chứng để bác bỏ giả thuyết H0
+None
+-----------------------------------------------------------
+*** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
+Owan02 Table
+     X1    X2    X3    X4    X5
+0  2569  2074  2505  2838  1532
+1  2928  2885  2315  2351  2552
+2  2865  3378  2667  3001  3083
+3  3844  3906  2390  2439  2330
+4  3027  2782  3021  2199  2079
+5  2336  3018  3085  3318  3366
+6  3211  3383  3308  3601  2416
+7  3037  3447  3231  3291  3100
+Kiểm định Kolmogorov: X1
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X2
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X3
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X4
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Bartlett:
+ Statistic = 0.8688356059774353
+ pvalue = 0.8329412252031859
+Các features đồng nhất về phương sai
+None
+Kiểm định ANOVA:
+Stat = 0.5676364571491808
+ pvalue = 0.6409257498820091
+Chưa có bằng chứng để bác bỏ giả thuyết H0
+None
+-----------------------------------------------------------
+*** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
+Owan03 Table
+     X1    X2    X3     X4
+0    70  49.0  30.0   34.0
+1    77  60.0  37.0   36.0
+2    83  63.0  56.0   48.0
+3    87  67.0  65.0   48.0
+4    92  70.0  76.0   65.0
+5    93  74.0  83.0   91.0
+6   100  77.0  87.0   98.0
+7   102  80.0  90.0  102.0
+8   102  89.0  94.0    NaN
+9   103   NaN  97.0    NaN
+10   96   NaN   NaN    NaN
+Kiểm định Kolmogorov: X1
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X2
+Dữ liệu không tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X3
+Dữ liệu không tuân theo luật phân phối chuẩn
+None
+Kiểm định Kolmogorov: X4
+Dữ liệu không tuân theo luật phân phối chuẩn
+None
+Kiểm định Bartlett:
+ Statistic = 12.022305190389242
+ pvalue = 0.007307141609688417
+Các features không đồng nhất về phương sai
+None
+Kiểm định ANOVA:
+Stat = nan
+ pvalue = nan
+Chưa có bằng chứng để bác bỏ giả thuyết H0
+None
+-----------------------------------------------------------
+*** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
+Owan04 Table
+       X1     X2     X3     X4   X5
+0    80.0  150.0   48.0  100.0   25
+1   125.0   40.0   35.0   96.0   80
+2    35.0  120.0   95.0   35.0   30
+3    58.0   75.0   45.0   99.0   35
+4   110.0  160.0   75.0   75.0   30
+5   140.0   60.0  115.0  150.0   28
+6    97.0   45.0   42.0   45.0   20
+7    50.0  100.0   78.0  100.0   75
+8    65.0   86.0   65.0  120.0   48
+9    79.0   87.0  125.0   50.0   20
+10   35.0   90.0    NaN    NaN   50
+11   85.0    NaN    NaN    NaN   75
+12  120.0    NaN    NaN    NaN   55
+13    NaN    NaN    NaN    NaN   60
+14    NaN    NaN    NaN    NaN   85
+15    NaN    NaN    NaN    NaN  110
+Kiểm định Shapiro - X1
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X2
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X3
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X4
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X5
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Levene:
+Các features không đồng nhất về phương sai
+None
+Kiểm định ANOVA:
+Stat = nan
+ pvalue = nan
+Chưa có bằng chứng để bác bỏ giả thuyết H0
+None
+-----------------------------------------------------------
+*** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
+Owan05 Table
+     X1   X2   X3   X4   X5
+0   250  260  270  260  247
+1   255  271  250  255  249
+2   255  258  281  265  255
+3   264  263  273  257  247
+4   250  267  257  268  244
+5   265  254  264  263  245
+6   245  255  233  247  249
+7   252  250  254  253  260
+8   266  248  268  251  217
+9   246  240  252  252  208
+10  251  254  256  266  228
+11  263  275  265  264  253
+12  248  270  252  210  249
+13  228  225  256  236  223
+14  221  222  235  225  221
+15  223  230  216  230  228
+16  220  225  241  232  271
+Kiểm định Shapiro - X1
+Dữ liệu không tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X2
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X3
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X4
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Shapiro - X5
+Dữ liệu tuân theo luật phân phối chuẩn
+None
+Kiểm định Levene:
+Các features đồng nhất về phương sai
+None
+Kiểm định ANOVA:
+Stat = 1.5750491966351665
+ pvalue = 0.18898555405394352
+Chưa có bằng chứng để bác bỏ giả thuyết H0
+None
