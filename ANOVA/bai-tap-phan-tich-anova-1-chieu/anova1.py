@@ -18,9 +18,11 @@ def Shapiro(data):
     print("Kiểm định Shapiro :", data.name)
     st, pv = stats.shapiro(data)
     if pv > 0.05:
-        print("Dữ liệu tuân theo luật phân phối chuẩn")
+        print('''Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0''')
     else:
-        print("Dữ liệu không tuân theo luật phân phối chuẩn")
+        print('''Các features không đồng nhất về phương sai.
+Có bằng chứng thống kê để bác bỏ giả thuyết H0''')
 # 
 # 
 # Bartlett
@@ -30,9 +32,11 @@ def bartlett(a, b, c, d):
     print("Statistic =", st, "\n",
           "pvalue =", pv)
     if pv > 0.05:
-        print("Các features đồng nhất về phương sai")
+        print('''Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0''')
     else:
-        print("Các features không đồng nhất về phương sai")
+        print('''Các features không đồng nhất về phương sai.
+Có bằng chứng thống kê để bác bỏ giả thuyết H0''')
 # 
 #     
 #Levene
@@ -40,30 +44,32 @@ def levene(a, b, c, d, e):
     print("Kiểm định Levene: ",end="\n")
     st, pv = stats.levene(a, b, c, d, e)
     if pv > 0.05:
-        print("Các features đồng nhất về phương sai")
+        print('''Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0''')
     else:
-        print("Các features không đồng nhất về phương sai")
+        print('''Các features không đồng nhất về phương sai.
+Có bằng chứng thống kê để bác bỏ giả thuyết H0''')
 # 
 #Kiểm định ANOVA x1->x4
-def anova1_4(a, b, c, d):
+def anovax1_x4(a, b, c, d):
     print("Kiểm định ANOVA: ",end="\n" )
     st, pv = stats.f_oneway(a, b, c, d)
     print("Stat =", st, "\n", "pvalue =", pv)
     if pv < 0.05:
-        print("Có bằng chứng để bác bỏ giả thuyết H0")
+        print("Có bằng chứng thống kê để bác bỏ giả thuyết H0")
     else:
-        print("Chưa có bằng chứng để bác bỏ giả thuyết H0")
+        print("Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0")
 # 
 #         
 #Kiểm định ANOVA x1->x5
-def anova1_5(a, b, c, d, e):
+def anovax1_x5(a, b, c, d, e):
     print("Kiểm định ANOVA: ", end="\n")
     st, pv = stats.f_oneway(a, b, c, d, e)
     print("Stat =", st, "\n", "pvalue =", pv)
     if pv < 0.05:
-        print("Có bằng chứng để bác bỏ giả thuyết H0")
+        print("Có bằng chứng thống kê để bác bỏ giả thuyết H0")
     else:
-        print("Chưa có bằng chứng để bác bỏ giả thuyết H0")
+        print("Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0")
 # 
 # 
 # 
@@ -88,7 +94,7 @@ print(Kolmogorov(ow01_2))
 print(Kolmogorov(ow01_3))
 print(Kolmogorov(ow01_4))
 print(bartlett(ow01_1, ow01_2, ow01_3, ow01_4))
-print(anova1_4(ow01_1, ow01_2, ow01_3, ow01_4))
+print(anovax1_x4(ow01_1, ow01_2, ow01_3, ow01_4))
 print("-----------------------------------------------------------")
 # 
 # 
@@ -114,7 +120,7 @@ print(Kolmogorov(ow02_2))
 print(Kolmogorov(ow02_3))
 print(Kolmogorov(ow02_4))
 print(bartlett(ow02_1, ow02_2, ow02_3, ow02_4))
-print(anova1_4(ow02_1, ow02_2, ow02_3, ow02_4))
+print(anovax1_x4(ow02_1, ow02_2, ow02_3, ow02_4))
 print("-----------------------------------------------------------")
 # 
 # 
@@ -139,7 +145,7 @@ print(Kolmogorov(ow03_2))
 print(Kolmogorov(ow03_3))
 print(Kolmogorov(ow03_4))
 print(bartlett(ow03_1, ow03_2, ow03_3, ow03_4))
-print(anova1_4(ow03_1, ow03_2, ow03_3, ow03_4))
+print(anovax1_x4(ow03_1, ow03_2, ow03_3, ow03_4))
 print("-----------------------------------------------------------")
 # 
 # 
@@ -167,7 +173,7 @@ print(Shapiro(ow04_3))
 print(Shapiro(ow04_4))
 print(Shapiro(ow04_5))
 print(levene(ow04_1, ow04_2, ow04_3, ow04_4, ow04_5))
-print(anova1_5(ow04_1, ow04_2, ow04_3, ow04_4, ow04_5))
+print(anovax1_x5(ow04_1, ow04_2, ow04_3, ow04_4, ow04_5))
 print("-----------------------------------------------------------")
 # 
 # 
@@ -195,4 +201,4 @@ print(Shapiro(ow05_3))
 print(Shapiro(ow05_4))
 print(Shapiro(ow05_5))
 print(levene(ow05_1, ow05_2, ow05_3, ow05_4, ow05_5))
-print(anova1_5(ow05_1, ow05_2, ow05_3, ow05_4, ow05_5))
+print(anovax1_x5(ow05_1, ow05_2, ow05_3, ow05_4, ow05_5))
