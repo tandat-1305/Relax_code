@@ -30,12 +30,13 @@ None
 Kiểm định Bartlett:
  Statistic = 2.440153553631599
  pvalue = 0.48620382137845997
-Các features đồng nhất về phương sai
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 Kiểm định ANOVA:
 Stat = nan
  pvalue = nan
-Chưa có bằng chứng để bác bỏ giả thuyết H0
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 -----------------------------------------------------------
 *** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
@@ -64,12 +65,13 @@ None
 Kiểm định Bartlett:
  Statistic = 0.8688356059774353
  pvalue = 0.8329412252031859
-Các features đồng nhất về phương sai
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 Kiểm định ANOVA:
 Stat = 0.5676364571491808
  pvalue = 0.6409257498820091
-Chưa có bằng chứng để bác bỏ giả thuyết H0
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 -----------------------------------------------------------
 *** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
@@ -101,12 +103,13 @@ None
 Kiểm định Bartlett:
  Statistic = 12.022305190389242
  pvalue = 0.007307141609688417
-Các features không đồng nhất về phương sai
+Các features không đồng nhất về phương sai.
+Có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 Kiểm định ANOVA:
 Stat = nan
  pvalue = nan
-Chưa có bằng chứng để bác bỏ giả thuyết H0
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 -----------------------------------------------------------
 *** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
@@ -128,28 +131,34 @@ Owan04 Table
 13    NaN    NaN    NaN    NaN   60
 14    NaN    NaN    NaN    NaN   85
 15    NaN    NaN    NaN    NaN  110
-Kiểm định Shapiro - X1
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X1
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X2
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X2
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X3
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X3
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X4
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X4
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X5
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X5
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 Kiểm định Levene:
-Các features không đồng nhất về phương sai
+Các features không đồng nhất về phương sai.
+Có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 Kiểm định ANOVA:
 Stat = nan
  pvalue = nan
-Chưa có bằng chứng để bác bỏ giả thuyết H0
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 -----------------------------------------------------------
 *** No CODEPAGE record, no encoding_override: will use 'iso-8859-1'
@@ -172,26 +181,32 @@ Owan05 Table
 14  221  222  235  225  221
 15  223  230  216  230  228
 16  220  225  241  232  271
-Kiểm định Shapiro - X1
-Dữ liệu không tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X1
+Các features không đồng nhất về phương sai.
+Có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X2
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X2
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X3
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X3
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X4
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X4
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
-Kiểm định Shapiro - X5
-Dữ liệu tuân theo luật phân phối chuẩn
+Kiểm định Shapiro : X5
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 Kiểm định Levene:
-Các features đồng nhất về phương sai
+Các features đồng nhất về phương sai.
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
 Kiểm định ANOVA:
 Stat = 1.5750491966351665
  pvalue = 0.18898555405394352
-Chưa có bằng chứng để bác bỏ giả thuyết H0
+Chưa có bằng chứng thống kê để bác bỏ giả thuyết H0
 None
