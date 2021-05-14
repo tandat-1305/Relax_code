@@ -15,7 +15,7 @@ def Kolmogorov(data):
 #    
 # Shapiro
 def Shapiro(data):
-    print("Kiểm định Shapiro -", data.name)
+    print("Kiểm định Shapiro :", data.name)
     st, pv = stats.shapiro(data)
     if pv > 0.05:
         print("Dữ liệu tuân theo luật phân phối chuẩn")
